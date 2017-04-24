@@ -1,0 +1,89 @@
+span{
+	display: inline-block;
+}
+.selection{
+	display: inline-block;
+}
+.selection select{
+	padding: 5px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+.menu{
+	width: 100%;
+	background-color: #1EA378;
+	border-bottom: 4px solid #858384;
+	position: fixed;
+	padding: 10px;
+}
+.menu input{
+	width: 50px;
+	height: 25px;
+	padding-left: 8px;
+}
+
+.menu  button{
+    height: 28px;
+    padding: 5px;
+    /* font-size: 37px; */
+    border: 1px solid #ddd;
+    color: #555;
+    font-family: "fira code";
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#pop_enter{
+	    padding: 5px;
+	    position: absolute;
+	    z-index: 100;
+	    top: 83px;
+	    left: 442px;
+	    background-color: #54C37E;
+		
+}
+
+#pop_enter input{
+    padding: 5px;
+	width: 122px;
+}
+#pop_enter h1{
+	font-size: 12px;
+    padding: 10px;
+    font-family: tahoma;
+    color: #555;
+}
+
+.main span{
+	display: inline-block;
+	 	margin: 6px 10px;
+}
+
+.pull-right,.pull-left{
+	width:50%;
+	color: #fff;
+}
+.pull-right{
+	float: right;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.pull-left{
+	float:left;
+}
+.btn{
+	text-decoration: none;
+    color: #555;
+    background-color: #dfd;
+    padding: 8px;
+    margin: 0 13px;
+}

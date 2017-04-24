@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphy</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="whenLoad()">
+	
+	<div class="menu">
+		<div class="pull-left">
+			<input type="number"  min="0" max="0" value="0" id="from">
+			<input type="number" min="0" max="0" value="0" id="to">
+			<input type="number" min="0" max="0" value="0" id="weight">
+			<button id="lineit">arc</button>
+			<button id="delete">delete</button>
+			<input type="number" min="0" max="2" id="delsommetid">
+			<button id="delsommet">delete sommet</button>
+		</div>
+		<div class="pull-right">
+			<span style="margin-right: 20px">Order : <span id="graph-order">0</span></span>
+			<span>Taille : <span id="graph-taille">0</span></span>
+			<div class="selection">
+			<input class="" type="number" id="dijfrom">
+			<input class="" type="number" id="dijto">
+			<select id="mySelect">
+				<option value="wareshall">Wareshall</option>
+				<option value="prime">Prime</option>
+				<option value="dijkstra">Dijkstra</option>
+				<option value="kruskal">Kruskal</option>
+			</select>
+			</div>
+			<a href="#" id="export" class="btn">Exporter</a>
+		</div>
+
+	</div>
+	
+	<div id="pop_enter">
+		<h1>Entrer Le nombre</h1>
+		<input type="number" value="1" id="sommetnumber">
+	</div>
+
+	<canvas id="workshop"></canvas>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/graph.js"></script>
+	
+</body>
+</html>
